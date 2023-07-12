@@ -102,12 +102,10 @@ overflow: hidden;
     .views p{
         font-size: 11px;
         color:grey;
+        margin-right: 5px
 
     }
-    .views{
-        display: flex;
-        gap: 2rem;
-    }
+   
 }
 @media screen and (max-width:900px) {
 .video-details{
