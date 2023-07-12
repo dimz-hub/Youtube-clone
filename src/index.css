@@ -104,6 +104,10 @@ overflow: hidden;
         color:grey;
 
     }
+    .views{
+        display: flex;
+        gap: 2rem;
+    }
 }
 @media screen and (max-width:900px) {
 .video-details{
