@@ -99,6 +99,11 @@ overflow: hidden;
     .video-player{
         height: 38vh;
     }
+    .views p{
+        font-size: 11px;
+        color:grey;
+
+    }
 }
 @media screen and (max-width:900px) {
 .video-details{
