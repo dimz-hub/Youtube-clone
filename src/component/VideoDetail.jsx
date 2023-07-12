@@ -49,9 +49,9 @@ console.log(deviceWidth)
      <p className='text-sm'>{channelTitle}</p>
      <CheckCircle />
     </Link>
-    <div className='views flex gap-2'>
-      <p>{parseInt(viewCount).toLocaleString()} views</p>
-      <p>{parseInt(likeCount).toLocaleString()} likes</p>
+    <div className='views flex gap-3'>
+      <p>{parseInt(viewCount).toLocaleString()}views </p>
+      <p>   {parseInt(likeCount).toLocaleString()}likes</p>
     </div>
   </div>
 </div>
