@@ -33,13 +33,15 @@ const {snippet:{title, channelId, channelTitle}, statistics: { viewCount, likeCo
 }} = videoDetails
 
 const direction = (deviceWidth <= 900) ? 'row' : 'col'
+const VideoHeight = (deviceWidth <= 765) ? '30vh' : '50vh'
+console.log(deviceWidth)
 
   return (
     <div className='min-h-[95vh]'>
     <div className='video-details p-4'>
 <div className='sticky top-[86px]'>
   
-   <ReactPlayer className='video-player mb-0'  width= '100%' height= '50vh'  url = {`https://www.youtube.com/watch?v=${id}`} controls /> 
+   <ReactPlayer className='video-player mb-0'  width= '100%' height= {VideoHeight}  url = {`https://www.youtube.com/watch?v=${id}`} controls /> 
 
   <h1 className='font-bold mt-[-25px] '>{title}</h1>
   <div className = 'flex justify-between'>

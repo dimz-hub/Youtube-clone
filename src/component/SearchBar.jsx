@@ -26,6 +26,7 @@ export default function SearchBar() {
  <input className='search-bar rounded-[20px] w-[100%] focus:outline-none px-5'
          placeholder = 'Search...'
          onChange={(e) => {setSearchTerm(e.target.value)}}
+         value = {searchTerm}
          />
          <IconButton type='submit'>
          <Search className='text-red-500'/>
